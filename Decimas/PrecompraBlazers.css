@@ -1,0 +1,41 @@
+.card{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 3);
+    padding-bottom: 40px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+.recomendados{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    width: 100%;
+}
+
+tableid{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 3);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.id:hover{
+    transform: scale(1,1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 20);
+}
+
+.id{
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+
+.id:hover{
+    background-color: black;
+}
+

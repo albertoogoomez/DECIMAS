@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Variables */
+:root{
+    --colorTitulo: #8d8d8d;
+    --colorBoton: #119aa5;
+    --colorPaquetebanner: #fdc508;
+    --colorNombrePaquete: #373a3c;
+}
+
+body{
+    font-family: helvetica;
+}
+
+/* Header */
+.parallax{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Decimas/img/CatalogoNike/fondo\ runner\ nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Fin del Header */
+
+.parallax-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 72%;
+}
+
+.parallax h2{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+.parallax p{
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.abajo{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.abajo img{
+    width: 2%;
+}
+
+.desliza{
+    position: absolute;
+    left: 0;
+    bottom: 1em;
+    right: 0;
+}
+
+/* Estilos de targetas */
+.MejoresOfertas{
+    width: 80%;
+    margin: 0 auto; /* Se alinéa en el centro */
+    padding-top: 7em;
+    padding-bottom: 11em;
+    height: 85vh;
+}
+
+.TituloPag{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--colorTitulo);
+    padding-bottom: 2em;
+}
+
+.recomendados{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    width: 100%;
+}
+
+.card{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 3);
+    text-align: center;
+    padding-bottom: 40px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 40px;
+}
+
+.card img{
+    width: 90%;
+}
+
+.card:hover{
+    transform: scale(1,1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 20);
+}
+
+.NombrePaquete{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--colorNombrePaquete);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Padding funciona como las hojas del reloj 12,3,6,9 */
+
+.textDescription{
+    font-size: 1em;
+    color: var(--colorTitulo);
+    padding: 10px 40px 30px 40px;
+}
+
+.BotonVer{
+    text-decoration: none;
+    background-color: var(--colorBoton);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+
+.BotonVer:hover{
+    background-color: black;
+}
+
+/* Banner info */
+.bannerPromo{
+    background-image: url(../Decimas/img/CatalogoNike/banner\ info\ nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+
+.info{
+    position: absolute;
+    bottom: 7em;
+    left: 5em;
+}
+
+.info h2{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nike{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 7em;
+    padding-bottom: 8em;
+    text-align: center;
+}
+
+.tituloPa{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--colorTitulo);
+    padding-bottom: 2em;
+}
+
+.nike p{
+    color:var(--colorTitulo);
+    padding-bottom: 50px;
+}
+
+.recomendados2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    width: 100%;
+}
+
+.NombrePaquete2{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textDescription2{
+    font-size: 1em;
+    color: var(--colorTitulo);
+    padding: 10px 40px 30px 40px;
+}
+
+/* Banner separación */
+.banner3{
+    background-image: url(../Decimas/img/CatalogoNike/banner\ separacion\ nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+}
